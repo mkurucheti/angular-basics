@@ -1,0 +1,29 @@
+{
+  "name": "angular-basics",
+  "version": "1.0.0",
+  "description": "This is a basic project created for Angular 1.x demonistration.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --content-base app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkurucheti/angular-basics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mkurucheti/angular-basics/issues"
+  },
+  "homepage": "https://github.com/mkurucheti/angular-basics#readme",
+  "devDependencies": {
+    "webpack": "^4.16.0",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "angular": "^1.7.2"
+  }
+}
